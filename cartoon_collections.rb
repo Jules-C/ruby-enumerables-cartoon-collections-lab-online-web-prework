@@ -16,12 +16,5 @@ end
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
   foods.find do |maybe_cheese|cheeses_types.include?(foods)
-  
-end
+  end
 
-# def find_the_cheese(strings)
-#   # the array below is here to help
-#   #cheese_types = ["cheddar", "gouda", "camembert"]
-#   strings.find { |a| a == "cheddar" || a == "gouda" || a == "camembert"
-#     %w[cheddar gouda camembert].any? a
-# end
